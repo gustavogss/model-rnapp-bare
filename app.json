@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "model-rnapp-bare",
+    "slug": "model-rnapp-bare",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
