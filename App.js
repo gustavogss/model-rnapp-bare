@@ -1,12 +1,19 @@
 import { SafeAreaView, StatusBar, StyleSheet } from 'react-native'
 import React from 'react'
 import { Home } from './src/pages/Home'
+import { NavigationContainer } from '@react-navigation/native';
 
 export default function App() {
   return (
     <SafeAreaView style={styles.container}>
-      <StatusBar />
+      <NavigationContainer>
+      <StatusBar
+        barStyle="light-content"
+        backgroundColor="transparent"
+        translucent
+      />
       <Home />
+      </NavigationContainer>
     </SafeAreaView>
   )
 }

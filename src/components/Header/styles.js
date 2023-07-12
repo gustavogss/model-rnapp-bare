@@ -3,7 +3,7 @@ import global from '../../theme/global';
 
 const styles = StyleSheet.create({
     container:{
-        height: '10%',
+        height: '15%',     
         backgroundColor: global.primaryColor,
         justifyContent: 'center',
     },
