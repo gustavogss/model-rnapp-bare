@@ -7,7 +7,7 @@ export function DrawerMenu() {
   return (
     <Drawer.Navigator>
       <Drawer.Screen 
-      name="inicio" 
+      name="homeMenu" 
       component={Home} 
       />    
     </Drawer.Navigator>
