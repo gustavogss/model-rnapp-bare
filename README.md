@@ -1,4 +1,4 @@
-# Modelo pessoal de estrutura para aplicativo react-native com Bare Workflow
+# Modelo de projeto pessoal para aplicativo react-native com Bare Workflow
 
 - Objetivo: ganhar produtividade na construção de apps que precisam das pastas android e ios disponíveis
 
@@ -10,4 +10,9 @@
 
 ```
 npm install
+```
+## Para executar digite o comando:
+
+```
+npx expo start
 ```
