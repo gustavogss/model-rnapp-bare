@@ -9,6 +9,7 @@
 - [StyleSheet](https://reactnative.dev/docs/stylesheet)
 - [Axios](https://www.npmjs.com/package/axios)
 - [React Navigation](https://reactnavigation.org/docs)
+- [SVG transformer](https://www.npmjs.com/package/react-native-svg-transformer)
 ## Como utilizar e configurar :electric_plug: 
 - Clonar ou baixar o repositório
 - Verificar as versões do aplicativo

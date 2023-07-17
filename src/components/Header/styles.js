@@ -7,12 +7,9 @@ const styles = StyleSheet.create({
         backgroundColor: global.primaryColor,
         justifyContent: 'center',
     },
-    title:{
-        fontSize: 20,
-        fontWeight: '300',
-        textAlign: 'center',
-        padding: 10,
-        color: global.textColorLigth
-    }
+   logo: {
+    paddingTop: 40,
+    
+   }
 });
 export default styles;
