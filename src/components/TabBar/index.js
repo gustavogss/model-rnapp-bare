@@ -2,6 +2,7 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { Home } from '../../pages/Home';
 import {Feather} from '@expo/vector-icons'
 import global from '../../theme/global';
+import { theme } from '../../theme';
 
 const Tab = createBottomTabNavigator();
 
@@ -11,9 +12,9 @@ export function TabBar() {
     screenOptions={{
         headerShown: false,        
         tabBarHideOnKeyboard: true,        
-        tabBarActiveTintColor: '#f8f8f6',
+        tabBarActiveTintColor: theme.colors.secondColor,
         tabBarStyle: {
-          backgroundColor: '#212121',
+          backgroundColor: theme.colors.textColorDark,
           borderTopWidth: 0,           
         }
       }}
@@ -23,7 +24,7 @@ export function TabBar() {
       component={Home} 
       options={{
         tabBarIcon: ({color, size})=>{
-            return <Feather name='homeButton' color={global.iconColor} size={24}/>
+            return <Feather name='homeButton' color={theme.colors.iconColor} size={24}/>
         },
       }}
       />      
